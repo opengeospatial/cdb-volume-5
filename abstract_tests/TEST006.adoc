@@ -1,0 +1,9 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier |/conf/core-radar/rcs-vari
+|Requirement |req/cdb-radar/rcs-vari
+|Dependency |Shapefile specification and Reference as given above.
+|Test purpose |Verify that each variant of the RCS model in the Shapefile has a 10-character string attribute called "RCS_VARI"
+|Test method |Visual inspection.
+|Test type |Conformance
+|====================

@@ -1,0 +1,13 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 5* {set:cellbgcolor:#CACCCE}|req/cdb-radar/storage-files +
+ +
+
+ In summary, for a single RCS model in the CDB, the data files SHALL consist of:
+
+ &#8226; One *.shp main file that provides the geometric aspect (Points) for each data instance of a RCS model.
+
+&#8226; Two *.dbf files (one instance-level on a-per RCS feature basis, and one class-level at the RCS model level) that collectively provide the attribution for all of the possible RCS models of a given RCS Model.
+
+&#8226; One *.shx index file that stores the file offsets and content lengths for each of the records of the main *.shp file. The only purpose of this file is to provide a simple means for clients to step through the individual records of the *.shp file (i.e., it contains no CDB modeled data). {set:cellbgcolor:#FFFFFF}
+|===

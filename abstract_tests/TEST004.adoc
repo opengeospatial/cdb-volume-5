@@ -1,0 +1,9 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier |/conf/core-radar/attributes
+|Requirement |req/cdb-radar/attributes
+|Dependency |Rules defined in <<RCSModelClassLevelAttributes>> of this document.
+|Test purpose |Verify that each distinct RCS representation model has two different types of attributes: RCS model class attributes and RCS instance attributes.
+|Test method |Check values against rules defined in <<RCSModelClassLevelAttributes>>.
+|Test type |Conformance
+|====================

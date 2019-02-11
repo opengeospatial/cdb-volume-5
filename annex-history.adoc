@@ -1,0 +1,13 @@
+[appendix]
+:appendix-caption: Annex
+== Revision History
+
+[width="90%",options="header"]
+|===
+|Date |Release |Editor | Primary clauses modified |Description
+|2016-02-06 |Draft |C. Reed |Many |Ready for OAB review
+|2016-12-06 |Vote version |C. Reed |Various |Generalize as many ShapeFile references as possible
+|2016-10-06 |1.0 |C. Reed |Various |Final edits for publication
+|2016-11-21 |1.0 |C. Reed | |Ready for publication
+|2017-12-28 |1,1 |C. Reed |Various |Minor edits and changes to URI identifiers for 1.1.
+|===

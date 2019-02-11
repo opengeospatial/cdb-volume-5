@@ -1,0 +1,7 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 4* {set:cellbgcolor:#CACCCE}|req/cdb-radar/attributes +
+ +
+
+The data for each distinct RCS representation model SHALL have two different types of attributes; RCS model class attributes and RCS instance attributes as defined below. {set:cellbgcolor:#FFFFFF}
+|===

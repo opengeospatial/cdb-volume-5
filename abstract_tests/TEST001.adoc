@@ -1,0 +1,11 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier | /conf/core-radar/storage
+|Requirement | req/cdb-radar/storage
+|Dependency |Shapefile specification
+|Test purpose | Verify that the RCS model is stored as a series of Esri's ShapeFiles in accordance with the Esri Shapefile Specification.
+|Test method | Visual inspection. Pass if verified
+|Test type |Conformance
+|====================
+
+//DONE

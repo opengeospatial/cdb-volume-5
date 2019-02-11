@@ -1,0 +1,52 @@
+[appendix]
+:appendix-caption: Annex
+== Conformance Class Abstract Test Suite (Normative): OGC CDB Radar Cross Section (RCS)
+
+This section describes conformance test for the OGC CDB Radar Cross Section model. These abstract test cases describe the conformance criteria for verifying the structure and content of any data store claiming conformance to this CDB Best Practice.
+
+The conformance class id is “http://opengis.net/spec/CDB/1.0/core/lod-hierarchy/conf/” and all of the other conformance tests URLs are created in this path. Another issue that the reader should pay attention to is the test method. When the test method is assigned with “Visual”, it means that the purpose of the test should be “visually” investigate the file contents, image, or other content.
+
+=== General RCS Implementation
+
+The following conformance test is designed to determine if a RCS instance is a CDB implementation is a Shapefile.
+
+include::abstract_tests/TEST001.adoc[]
+
+=== Shapefile Point Vertices
+
+This test determines that for each of those Shapefile point vertices, the X component represent the azimuth angle (equivalent to longitude) and the Y component represent the elevation angle (equivalent to latitude); the RCS value (and other attributes) are stored in the instance attributes within the DBF file.-azimuth.
+
+include::abstract_tests/TEST002.adoc[]
+
+
+
+=== Model Signature Significant Angle
+
+Test to determine if the eight prescribed values for azimuth and elevation increments are used for specifying the Model Signature Significant Angle.
+
+include::abstract_tests/TEST003.adoc[]
+
+
+
+=== RCS Attributes
+
+Test for conformance that the RCS data for each distinct RCS representation model has two different types of attributes; RCS model class attributes and RCS instance attributes as defined below.
+
+include::abstract_tests/TEST004.adoc[]
+
+=== RCS Storage Files
+
+Test that a single RCS model in the CDB data store consists of the data files.
+
+* One *.shp main file that provides the geometric aspect (Points) for each data instance of a RCS model.
+* Two *.dbf files (one instance-level on a per RCS Shape basis, and one class-level at the RCS model level) that collectively provide the attribution for all of the possible RCS models of a given RCS Model.
+* One *.shx index file that stores the file offsets and content lengths for each of the records of the main *.shp file. The only purpose of this file is to provide a simple means for clients to step through the individual records of the *.shp file (i.e., it contains no CDB modeled data).
+
+
+include::abstract_tests/TEST005.adoc[]
+
+=== RCS Storage Files - Variant
+
+Test that each variant of the RCS model in the Shapefile has a 10-character string attribute called “RCS_VARI”. The string may contain the specific Radar model number (and possibly its frequency band L-Band, S-Band, X-Band, Ku-Band) for which this RCS variant applies to. The suggested string convention for this field is as described in AN/APA to AN/APD - Equipment Listing. http://www.designation-systems.net/usmilav/jetds/an-apa2apd.html#_APA.
+
+include::abstract_tests/TEST006.adoc[]

@@ -1,0 +1,7 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 6* {set:cellbgcolor:#CACCCE}|req/cdb-radar/rcs-vari +
+ +
+
+Each variant of the RCS model in the vector data set SHALL have a 10-character string attribute called “RCS_VARI”. The string may contain the specific Radar model number (and possibly its frequency band L-Band, S-Band, X-Band, Ku-Band) for which this RCS variant applies to. The suggested string convention for this field is as described in reference <<R22>>. {set:cellbgcolor:#FFFFFF}
+|===

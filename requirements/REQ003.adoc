@@ -1,0 +1,7 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 3* {set:cellbgcolor:#CACCCE}|req/cdb-radar/storage-sig-angle +
+ +
+
+The eight prescribed values for azimuth and elevation increments SHALL be used for specifying the ModelSignature Significant Angle. The table below shows the correspondence between the ModelSignature LOD level number and the ModelSignature Significant Angle. {set:cellbgcolor:#FFFFFF}
+|===

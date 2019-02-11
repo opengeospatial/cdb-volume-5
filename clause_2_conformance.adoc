@@ -1,0 +1,7 @@
+== Conformance
+
+This Best Practice defines one conformance class.
+
+Conformance with this Best Practice shall be checked using all the relevant tests specified in Annex A (normative) of this document. The framework, concepts, and methodology for testing, and the criteria to be achieved to claim conformance are specified in the OGC Compliance Testing Policies and Procedures and the OGC Compliance Testing web site footnote:[http://www.opengeospatial.org/cite[www.opengeospatial.org/cite]].
+
+All requirements-classes and conformance-classes described in this document are owned by the standard(s) identified.

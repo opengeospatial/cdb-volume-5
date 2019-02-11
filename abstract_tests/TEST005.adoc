@@ -1,0 +1,15 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier |/conf/core-radar/storage-files
+|Requirement |req/cdb-radar/storage-files
+|Dependency |Shapefile specification
+|Test purpose |Verify that a single RCS model in the CDB data store consists of the data files:
+
+&#8226; One *.shp,
+
+&#8226; two *.dbf, and
+
+&#8226; one *.shx
+|Test method |Visual inspection.
+|Test type |Conformance
+|====================

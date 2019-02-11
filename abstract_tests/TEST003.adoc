@@ -1,0 +1,9 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier |/conf/core-radar/storage-sig-angle
+|Requirement |req/cdb-radar/storage-sig-angle
+|Dependency |Table showing ModelSignature LOD level number and the ModelSignature Significant Angle
+|Test purpose |Verify that the 8 values are used
+|Test method |Check values against <<table_ModelSignatureSignificantAngleperLOD>>.
+|Test type |Conformance
+|====================

@@ -1,0 +1,3 @@
+Appendix A.5 and A.6 had the same title (RCS Storage Files) in the MS Word version.
+
+So A.6 has now been renamed "RCS Storage Files - Variant" consistent with its contents.

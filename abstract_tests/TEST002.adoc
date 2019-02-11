@@ -1,0 +1,9 @@
+[cols=">20h,<80d",width="100%"]
+|====================
+|Test identifier |/conf/core-radar/storage-vertices
+|Requirement |req/cdb-radar/storage-vertices
+|Dependency |Shapefile specification
+|Test purpose |Verify that point vertices follow the requirement for representing an RCS instance.
+|Test method |Visual inspection. Pass if verified
+|Test type |Conformance
+|====================
