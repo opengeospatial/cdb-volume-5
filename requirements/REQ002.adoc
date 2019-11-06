@@ -3,5 +3,5 @@
 |*Requirement 2* {set:cellbgcolor:#CACCCE}|req/cdb-radar/storage-vertices +
  +
 
-For each of the vector point vertices, the X component SHALL represent the azimuth angle (equivalent to longitude) and the Y component SHALL represent the elevation angle (equivalent to latitude); the RCS value (and other attributes) SHALL be stored in the instance attributes within the DBF file.-azimuth {set:cellbgcolor:#FFFFFF}
+For each of the vector point vertices, the X component SHALL represent the azimuth angle (equivalent to longitude) and the Y component SHALL represent the elevation angle (equivalent to latitude). The RCS value (and other attributes) SHALL be stored in the instance attributes within the DBF file.-azimuth {set:cellbgcolor:#FFFFFF}
 |===
