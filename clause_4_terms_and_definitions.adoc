@@ -2,4 +2,4 @@
 
 This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this OGC Best Practice.
 
-See the CDB Terms and Definitions document in OGC CDB Volume 3: Terms and Definitions at http://www.opengeospatial.org/standards/cdb.
+See the complete list of CDB Terms and Definitions in http://www.opengeospatial.org/standards/cdb[OGC CDB Volume 3: Terms and Definitions].
