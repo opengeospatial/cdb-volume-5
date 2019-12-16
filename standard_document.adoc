@@ -1,5 +1,5 @@
-:Title: Volume 5: OGC CDB Radar Cross Section (RCS) Models
-:titletext: Volume 5: OGC CDB Radar Cross Section (RCS) Models
+:Title: Volume 5: OGC CDB Radar Cross Section (RCS) Models (Best Practice)
+:titletext: Volume 5: OGC CDB Radar Cross Section (RCS) Models (Best Practice)
 :doctype: book
 :encoding: utf-8
 :lang: en
