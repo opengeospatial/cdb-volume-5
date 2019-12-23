@@ -8,7 +8,7 @@
 :toclevels: 3
 :numbered:
 :sectanchors:
-:source-highlighter: pygments
+:source-highlighter: coderay
 :opening-bracket: &#91;
 :closing-bracket: &#93;
 :xrefstyle: short
