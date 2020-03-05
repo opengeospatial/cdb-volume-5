@@ -1,0 +1,12 @@
+{
+        "1": {
+                "OGC_doc_number": "16-004r5",
+                "urn":"http://www.opengis.net/doc/BP/cdb-radar/1.2",
+                "title":"Volume 5: OGC CDB Radar Cross Section (RCS) Models (Best Practice)",
+                "path":"standard_document.adoc",
+                "options": ["--trace"],
+                "a":[
+                        "data-uri"
+                ]
+        }
+}
