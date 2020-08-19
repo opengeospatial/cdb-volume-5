@@ -3,7 +3,7 @@
 
 This CDB volume provides all of the information required to store Radar Cross Section (RCS) data within a conformant CDB data store.
 
-Please note that the current CDB standard only provides encoding rules for using Esri ShapeFiles for storing RCS models. However, this Best Practice has been modified to change most of the ShapeFile references to “vector data sets” or “vector attributes” and “Point Shapes” to “Point geometries”. This was done in recognition that future versions of the CDB standard and related Best Practices will provide guidance on using other encodings/formats, such as OGC GML.
+Please note that the current CDB standard only provides encoding rules for using Esri ShapeFiles for storing RCS models. However, this Best Practice has been modified to change most of the ShapeFile references to “vector data sets” or “vector attributes” and “Point Shapes” to “Point geometries”. This was done in recognition that future versions of the CDB standard and related Best Practices will provide guidance on using other encodings/formats, such as OGC Geography Markup Language (GML).
 
 
 [big]*ii.    Keywords*
