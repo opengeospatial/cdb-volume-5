@@ -14,9 +14,6 @@ image::images/image1.png[image,width=379,height=211]
 [#img_RelativeAzimuthElevationAngles,reftext='Figure A-19']
 *Figure A-19: Relative Azimuth (α) and Elevation (φ) Angles*
 
-
-
-
 RCS curves are normally produced using highly specialized off-line tools which input the model geometry and material attributes (typically an OpenFlight file) and applies physics-based processing like geometric ray-tracing, optical reflections/refractions, corner detection, material absorption and so on to the geometric data representation of the model. This processing is computationally expensive and is usually performed in non real-time. The end-result of this computation (usually 2D arrays of data points in elevation and azimuth) provides data that can be used more efficiently by simulation modeling such as radar at run-time. Those data curves are stored in a polar-type representation table, which provide specific reflectivity levels given a set of azimuth and elevation aspect angles.
 
 === Functional Description
@@ -27,9 +24,6 @@ image::images/image2.png[elevation diagram,width=275,height=258]
 [#img_PolarDiagramRCSDataDecibelsGivenElevationAngle,reftext='Figure A-20']
 *Figure A-20: Polar Diagram of RCS data in Decibels at a given elevation angle*
 
-
-
-
 The polar diagram allows the radar to use an RCS value array (indexed by azimuth/elevation angles) for getting an approximation of the overall RCS of distant targets. The approximated RCS data is a function of the model’s materials, geometry, view angles, and multi-paths reflections generated within the model itself.
 
 RCS data can also be depicted more linearly as shown in the following diagram:
@@ -37,8 +31,6 @@ RCS data can also be depicted more linearly as shown in the following diagram:
 image::images/image3.png[azimuth diagram,width=443,height=201]
 [#img_LinearDiagramOfRCSDataInDecibelsAtAGivenElevationAngle,reftext='Figure A-21']
 *Figure A-21: Linear Diagram of RCS data in Decibels at a given elevation angle*
-
-
 
 As can be seen in the example above, relative intensities are much greater when viewing the model directly in front (0° azimuth), from the back (±180° azimuth) and on the sides (-90° and +90° azimuth).
 
@@ -54,8 +46,6 @@ image::images/image4.png[image,width=333,height=201]
 [#img_HorizontalAndVerticalPolarizationOfAPlaneOfEMWave,reftext='Figure A-22']
 *Figure A-22: Horizontal and Vertical Polarization of a plane of EM wave*
 
-
-
 The waveform of the electric field strength (voltage) of an EM wave can be predictable (the wave is polarized) or random (the wave is un-polarized), or a combination of both. In the latter case, the degree of polarization describes the ratio of polarized power to total power of the wave. An example of a fully polarized wave would be a monochromatic sine wave, with a single, constant frequency and stable amplitude.
 
 Many types of radar antennae are designed to transmit and/or receive microwave radiation that is either horizontally (H) or vertically (V) polarized, or a combination of both. A transmitted wave of either polarization can generate a backscattered wave with a variety of polarizations, thus an equal amount of resulting RCS curves.
@@ -66,7 +56,6 @@ Polarization type on either transmission or reception mode can be synthesized by
 * VV - for vertical transmit and vertical receive
 * HV - for horizontal transmit and vertical receive, and
 * VH - for vertical transmit and horizontal receive.
-
 
 The first two polarization combinations are referred to as “like-polarized” because transmit and receive polarization types are the same. The last two combinations are referred to as “cross-polarized” because transmit and receive polarizations are orthogonal to one another.
 
