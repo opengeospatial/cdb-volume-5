@@ -1,4 +1,4 @@
-# Standard template
+# OGC CDB Volume 5 Radar Cross Sections
 
 ## Content
 
