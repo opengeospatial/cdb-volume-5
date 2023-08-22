@@ -11,5 +11,5 @@
 |2016-11-21 |1.0 |C. Reed | |Ready for publication
 |2017-12-28 |1,1 |C. Reed |Various |Minor edits and changes to URI identifiers for 1.1.
 |2019-11-05 |1.2 |C. Reed |Various |Minor edits for version 1.2
-|2023-08-01 |1.3 |D. Graham | Front Matter |Editorial changes only for version 1.3
+|2023-08-01 |1.3 |D. Graham | Front Matter, Scope |Editorial changes only for version 1.3
 |===
