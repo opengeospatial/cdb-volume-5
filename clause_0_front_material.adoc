@@ -26,13 +26,11 @@ Organization name(s)
 
 * CAE Inc.
 * Carl Reed, OGC Individual Member
-* Envitia, Ltd
-* Glen Johnson, OGC Individual Member
-* KaDSci, LLC
-* Laval University
-* Open Site Plan
-* University of Calgary
 * UK Met Office
+* Ecere Corporation
+* The Joint Staff
+* FSI International Visual Systems
+* SimBlocks LLC
 
 [big]*v.     Submitters*
 
